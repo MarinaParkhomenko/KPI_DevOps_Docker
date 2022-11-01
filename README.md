@@ -64,10 +64,10 @@ CMD [ "node", "server.js" ]
 ```
 
 Building the image <br>
-`docker build . -t kali/node-web-app`
+`docker build . -t dockermarina02/node-web-app`
 
 Running the image <br>
-`docker run -p 80:80 -d --memory="20m" --cpus=1.5 kali/node-web-app`
+`docker run -p 80:80 -d --memory="20m" --cpus=1.5 dockermarina02/node-web-app`
 
 Checking http://localhost/
 <br>
