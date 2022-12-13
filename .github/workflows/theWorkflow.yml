@@ -27,4 +27,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD  }}
             
     - name: Docker push
-          run: docker push dockermarina02/node-web-app
+      run: docker push dockermarina02/node-web-app
